@@ -1,10 +1,14 @@
+import java.util.Random;
+
 public class RobotGarage {
     public static void main(String[] args){
+        Random rand = new Random();
+        int randBot = rand.nextInt(2);
         Robot[] robots = new Robot[3];
 
         robots[0] = new Robot();
         robots[1] = new Robot();
-        robots[2] = robots[0].copy();
+        robots[2] = robots[randBot].copy();
 
         System.out.println("Robot 1: " + robots[0].toString());
         System.out.println("Robot 2: " + robots[1].toString());
