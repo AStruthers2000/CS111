@@ -22,7 +22,7 @@ public class RobotGarage {
             for(int b = 0; b<robots.length; b++){
                 if(!(b==a) && !theSame){
                     if(curBot.equals(robots[b])){
-                       System.out.println("Robots " + a + " and " + b + " have the same ID");
+                       System.out.println("Robots " + String.valueOf(a+1) + " and " + String.valueOf(b+1) + " have the same ID");
                        theSame = true;
                     }
                 }
