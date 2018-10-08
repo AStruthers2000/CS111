@@ -1,2 +1,2 @@
-rem @echo off
+@echo off
 dir /a /b "IntelliJ\"
