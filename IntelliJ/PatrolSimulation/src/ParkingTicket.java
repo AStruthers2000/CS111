@@ -7,18 +7,16 @@ public class ParkingTicket {
     public final double BASE_FINE = 25.0;
     public final double HOURLY_FINE = 10.0;
 
+    //ParkingTicket constructor with args from UML diagram
     public ParkingTicket(ParkedCar aCar, PoliceOfficer anOfficer, int meterMins) {
         this.car = aCar;
         this.officer = anOfficer;
         this.minutes = this.car.getMinutesParked() - meterMins;
     }
-    public ParkingTicket(ParkingTicket ticket) {
-
-    }
 
     public void calculateFine() {
         if (getMinutes() > 0) {
-            fine = BASE_FINE + (getMinutes() / 60) * HOURLY_FINE;
+            fine = BASE_FINE + (getMinutes() / 60) * HOURLY_FINE; //equation to multiply the fine by hours over
         } else {
             fine = 0.0;
         }
@@ -53,7 +51,7 @@ public class ParkingTicket {
         this.minutes = minutes;
     }*/
 
-    public String toString() {
+    public String toString() { //toString function with output formatted like the pdf instructions
         return car.toString() + "\n" + officer.toString() + "\n\tTicket Data\n\tMinutes Illegally Parked: " + getMinutes() + "\n\tFine: $" + getFine() + "0\n";
     }
 }

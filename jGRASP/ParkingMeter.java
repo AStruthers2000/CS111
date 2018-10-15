@@ -1,6 +1,7 @@
 public class ParkingMeter {
     private int minutesPurchased;
 
+    //ParkingMeter constructor outlined in UML diagram
     public ParkingMeter(int numMinPurchased) {
         this.minutesPurchased = numMinPurchased;
     }
@@ -12,7 +13,7 @@ public class ParkingMeter {
         this.minutesPurchased = minutesPurchased;
     }*/
 
-    public String toString() {
+    public String toString() { //toString method
         return "Purchaced: " + getMinutesPurchased() + " minutes";
     }
 }

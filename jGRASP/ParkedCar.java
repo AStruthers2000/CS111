@@ -2,6 +2,7 @@ public class ParkedCar {
     private String make, model, color, licenseNumber;
     private int minutesParked;
 
+    //ParkedCar constructor with args from UML diagram
     public ParkedCar(String mk, String mdel, String col, String lic, int minParked) {
         this.make = mk;
         this.model = mdel;
@@ -9,13 +10,20 @@ public class ParkedCar {
         this.licenseNumber = lic;
         this.minutesParked = minParked;
     }
-    public ParkedCar(ParkedCar car2) {
 
+    //Copy constructor that takes values from car2
+    public ParkedCar(ParkedCar car2) {
+        make = car2.getMake();
+        model = car2.getModel();
+        color = car2.getColor();
+        licenseNumber = car2.getLicenseNumber();
+        minutesParked = car2.getMinutesParked();
     }
 
     public String getMake() {
         return make;
     }
+
     public void setMake(String make) {
         this.make = make;
     }
@@ -48,7 +56,7 @@ public class ParkedCar {
         this.minutesParked = minutesParked;
     }*/
 
-    public String toString() {
+    public String toString() { //toString formatted as outlined in pdf
         return "\tCar Data\n\tMake: " + getMake() + "\n\tModel: " + getModel() + "\n\tColor: " + getColor() + "\n\tLicense Number: " + getLicenseNumber() + "\n\tMinutes Parked: " + getMinutesParked() + "\n";
     }
 }
