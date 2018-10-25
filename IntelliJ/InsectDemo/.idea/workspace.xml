@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="626578f0-2211-4bb2-bce6-657c3ff55f3c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Beetle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Grasshopper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Insect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../jGRASP/ParkedCar.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../jGRASP/ParkingMeter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../jGRASP/ParkingTicket.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../jGRASP/PasswordDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../jGRASP/PasswordVerifier.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../jGRASP/PatrolSimulation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../jGRASP/PoliceOfficer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../jGRASP/SimulationExpired.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../jGRASP/SimulationLegallyParked.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShipDemo/src/ShipDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,6 +16,7 @@
     <session id="-614171824">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
@@ -57,8 +48,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/InsectDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="272">
+              <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -116,7 +107,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540492396009" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540493711753" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -164,7 +155,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="633" y="0" width="654" height="991" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
@@ -179,7 +169,7 @@
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32905483" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32905483" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -220,8 +210,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/InsectDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="272">
+          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
         </state>
       </provider>
     </entry>
