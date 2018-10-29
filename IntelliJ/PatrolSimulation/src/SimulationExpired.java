@@ -17,7 +17,7 @@ public class SimulationExpired {
         // should be matched with index i of the array of ParkingTicket
         // objects)
         for (int i = 0; i < parkedCars.length; i++) {
-            parkingTickets[i] = policeOfficer.patrol(parkedCars[i], parkingMeters[i]); //Done
+            parkingTickets[i] = policeOfficer.patrol(new ParkedCar(parkedCars[i]), parkingMeters[i]); //Done
         }
 
         // After the PoliceOfficer has patrolled the cars and parking

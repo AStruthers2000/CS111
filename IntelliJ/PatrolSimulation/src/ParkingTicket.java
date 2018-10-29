@@ -13,6 +13,12 @@ public class ParkingTicket {
         this.officer = anOfficer;
         this.minutes = this.car.getMinutesParked() - meterMins;
     }
+    public ParkingTicket(ParkingTicket ticket){
+        car = ticket.getCar();
+        officer = ticket.getOfficer();
+        fine = ticket.getFine();
+        minutes = ticket.getMinutes();
+    }
 
     public void calculateFine() {
         if (getMinutes() > 0) {
@@ -22,9 +28,9 @@ public class ParkingTicket {
         }
     }
 
-    /*public ParkedCar getCar() {
+    public ParkedCar getCar() {
         return car;
-    }*/
+    }
     /*public void setCar(ParkedCar car) {
         this.car = car;
     }*/

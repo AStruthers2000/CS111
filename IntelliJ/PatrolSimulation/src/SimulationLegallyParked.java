@@ -9,7 +9,7 @@ public class SimulationLegallyParked {
 
         // Create a PoliceOfficer object. Give the officer a name and badge
         // number
-        PoliceOfficer policeOfficer = new PoliceOfficer("Duke Ellington", "2012412"); //Should be done
+        PoliceOfficer policeOfficer = new PoliceOfficer("Bruce Mclaren", "2012412"); //Should be done
 
         // Have the officer patrol each of the Car and ParkingMeter object
         // combinations (index i for the array of Car objects should be
