@@ -1,6 +1,9 @@
 // sample game demo file
 
 public class GameDemoSimple {
+    String getClassName(){
+        return this.getClass().getSimpleName();
+    }
 
     public static void main(String args[]) {
 
@@ -33,6 +36,10 @@ public class GameDemoSimple {
         // create player object, using the superclass Player
         Player player = new Player("Tatiana", playerRoomNumber, "bubble gum;band-aid;toothpick");
 
+        GameV3 game = new GameV3();
+        System.out.println("You are currently playing: " + game.getClassName());
+        System.out.println("\tIn this version, there are more than the 3 rooms in v.1.0");
+        System.out.println("==========\n");
         // play the game, as long as player object has field continuePlay set to true
         while (player.getContinuePlay() == true) {
             playerRoomNumber =

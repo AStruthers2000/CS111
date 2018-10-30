@@ -57,9 +57,15 @@ public class Room {
                 player.setContinuePlay(false);
                 break;
             case "pick up":
+                //TODO figure out how to get methods and fields from CustomPlayer
+                //CustomPlayer.getCarryingCapacity()
+                //CustomPlayer.addToCarryingCapacity()
                 userPicksUp(player);
                 break;
             case "drop":
+                //TODO figure out how to get methods and fields from CustomPlayer
+                //CustomPlayer.getCarryingCapacity()
+                //CustomPlayer.addToCarryingCapacity()
                 userDrops(player);
                 break;
             case "help":

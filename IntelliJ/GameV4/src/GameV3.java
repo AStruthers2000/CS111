@@ -1,4 +1,4 @@
-public class GameV2 {
+public class GameV3 {
     String getClassName(){
         return this.getClass().getSimpleName();
     }
@@ -28,8 +28,6 @@ public class GameV2 {
         gameBoard[9] = new MonsterRoom("Asylum", "straitjacket;handcuffs;surgery tools", 9, "n8;w10");
         gameBoard[10] = new MonsterRoom("Haunted Vault", "evil looking coin purse;arrow;burnt money",10, "n7;e9");
 
-
-
         //-n-
         //w+e
         //-s-
@@ -47,16 +45,16 @@ public class GameV2 {
         int playerRoomNumber = 0;
 
         // create player object, using the superclass Player
-        Player player = new Player("Tatiana", playerRoomNumber, "bubble gum;band-aid;toothpick");
+        // player is now type CustomPlayer, with an extra argument for my added functionality as per step 3
+        Player player = new CustomPlayer("Andrew", playerRoomNumber, "phone;laptop;4 dollars", 7);
 
-        GameV2 game = new GameV2();
+        GameV3 game = new GameV3();
         System.out.println("You are currently playing: " + game.getClassName());
-        System.out.println("\tIn this version, there are more than six rooms, with more than one as a MonsterRoom, with special behavior, instead of a regular Room");
+        System.out.println("\tIn this version, there are more than six rooms, with more than one as a MonsterRoom, with special behavior, instead of a regular Room. There is also a new CustomPlayer instead of the default Player, with two different fields and behaviors.");
         System.out.println("==========\n");
         // play the game, as long as player object has field continuePlay set to true
         while (player.getContinuePlay() == true) {
-            playerRoomNumber =
-                    gameBoard[playerRoomNumber].playRoom(player);
+            playerRoomNumber = gameBoard[playerRoomNumber].playRoom(player);
         }
     }
 }
