@@ -75,7 +75,6 @@ public class MapRoom extends Room {
     //   entryway 14   prayer room 13      map room 15 -- entryway 14
 
     protected void viewMap(){
-        //                                            33
         String map = "                               _\n";
         map+=        "                             / n \\\n";
         map+=        "                            | w+e |\n";
